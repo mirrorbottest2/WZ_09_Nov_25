@@ -1,25 +1,25 @@
 # REQUIRED CONFIG
-BOT_TOKEN = ""
-OWNER_ID = 0
-TELEGRAM_API = 0
-TELEGRAM_HASH = ""
+BOT_TOKEN = "5022314090:AAE0kGdRavkXzg-YmxxDWCpTObhN5S8Cir0"
+OWNER_ID = 680745190
+TELEGRAM_API = 2175637
+TELEGRAM_HASH = "3768f77fa58f2ac3ab5e72f7bfa6df34"
 DATABASE_URL = ""
 
 # OPTIONAL CONFIG
 DEFAULT_LANG = "en"
 TG_PROXY = (
     {}
-)  # {"scheme": ”socks5”, "hostname": ””, "port": 1234, "username": ”user”, "password": ”pass”}
+)  # {"scheme": â€socks5â€, "hostname": â€â€, "port": 1234, "username": â€userâ€, "password": â€passâ€}
 USER_SESSION_STRING = ""
 CMD_SUFFIX = ""
-AUTHORIZED_CHATS = ""
+AUTHORIZED_CHATS = "-1002184309262"
 SUDO_USERS = ""
 STATUS_LIMIT = 10
 DEFAULT_UPLOAD = "rc"
 STATUS_UPDATE_INTERVAL = 15
 FILELION_API = ""
 STREAMWISH_API = ""
-EXCLUDED_EXTENSIONS = ""
+EXCLUDED_EXTENSIONS = "nfo htm html exe info"
 INCOMPLETE_TASK_NOTIFIER = False
 YT_DLP_OPTIONS = ""
 USE_SERVICE_ACCOUNTS = False
@@ -72,7 +72,7 @@ HYDRA_API_KEY = ""
 # Media Search
 IMDB_TEMPLATE = """<b>Title: </b> {title} [{year}]
 <b>Also Known As:</b> {aka}
-<b>Rating ⭐️:</b> <i>{rating}</i>
+<b>Rating â­ï¸:</b> <i>{rating}</i>
 <b>Release Info: </b> <a href="{url_releaseinfo}">{release_date}</a>
 <b>Genre: </b>{genres}
 <b>IMDb URL:</b> {url}
@@ -115,8 +115,8 @@ YT_CATEGORY_ID = 22
 YT_PRIVACY_STATUS = "unlisted"
 
 # Rclone
-RCLONE_PATH = ""
-RCLONE_FLAGS = ""
+RCLONE_PATH = "rcl"
+RCLONE_FLAGS = "--transfers:1"
 RCLONE_SERVE_URL = ""
 SHOW_CLOUD_LINK = True
 RCLONE_SERVE_PORT = 0
@@ -150,8 +150,8 @@ USENET_SERVERS = [
 ]
 
 # Update
-UPSTREAM_REPO = ""
-UPSTREAM_BRANCH = "master"
+UPSTREAM_REPO = "https://mirrorbottest2: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@github.com/mirrorbottest2/WZ_09_Nov_25/"
+UPSTREAM_BRANCH = "wzv3"
 UPDATE_PKGS = True
 
 # Leech
@@ -173,15 +173,15 @@ LINKS_LOG_ID = ""
 MIRROR_LOG_ID = ""
 
 # qBittorrent/Aria2c
-TORRENT_TIMEOUT = 0
-BASE_URL = ""
-BASE_URL_PORT = 0
-WEB_PINCODE = True
+TORRENT_TIMEOUT = 90000
+BASE_URL = "https://popular-rachel-twisted-fairy-94093a16.koyeb.app/"
+BASE_URL_PORT = 80
+WEB_PINCODE = False
 
 # Queueing system
-QUEUE_ALL = 0
-QUEUE_DOWNLOAD = 0
-QUEUE_UPLOAD = 0
+QUEUE_ALL = 6
+QUEUE_DOWNLOAD = 5
+QUEUE_UPLOAD = 1
 
 # RSS
 RSS_DELAY = 600
