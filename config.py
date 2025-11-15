@@ -150,7 +150,7 @@ USENET_SERVERS = [
 ]
 
 # Update
-UPSTREAM_REPO = "https://mirrorbottest2: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@github.com/mirrorbottest2/WZ_09_Nov_25/"
+UPSTREAM_REPO = "http://github.com/mirrorbottest2/WZ_09_Nov_25/"
 UPSTREAM_BRANCH = "wzv3"
 UPDATE_PKGS = True
 
